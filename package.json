@@ -1,0 +1,12 @@
+{
+  "name": "crdt-graphmesh",
+  "version": "1.0.0",
+  "description": "P2P distributed graph state replication using state-based delta CvRDTs, maintaining causal topological order and concurrent edge/vertex merges without central consensus.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node tests/run_tests.js"
+  },
+  "author": "Ali Nurettin Demir (alinurettin)",
+  "license": "MIT"
+}
